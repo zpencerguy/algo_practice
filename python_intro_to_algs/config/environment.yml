@@ -1,0 +1,15 @@
+name: python_intro_to_algs
+channels: !!python/tuple
+- defaults
+- conda-forge
+dependencies:
+- certifi=2018.4.16
+- pip=9.0.1=py36_1
+- pybind11=2.2.1
+- python=3.6.1=0
+- setuptools=38.5.1
+- wheel=0.30.0
+- pip:
+  - numpy==1.11.2
+  - pandas==0.20.2
+prefix: logistics
